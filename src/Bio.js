@@ -12,7 +12,8 @@ function Bio() {
         Before starting web development, I spent 10 years as a Financial
         Professional for brokerage firms in New York City and Salt Lake City.
         After a successful career in Financial Services, I was drawn to the
-        creative and analytical aspects of writing code.
+        creative and analytical aspects of writing code. I find coding to be 
+        an iteresting intersection, where creativity and analytics come together.
         <br />
         <br />
         In addition to writing code, I also enjoy writing and playing music.

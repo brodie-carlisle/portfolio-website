@@ -1,35 +1,31 @@
 import React from "react";
 import "./App.css";
 import pic from "./picsmall.jpg";
-import { Link, BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import Nav from "./Nav";
-import Routing from "./Routing"
-import Footer from "./Footer"
+import Routing from "./Routing";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div className="App">
       <Router>
-      <div className="top">
-      
-        <h1 className="title"> Brodie Carlisle</h1>
-        
-        <Nav className="Navbar" />
-        
-      </div>
-      <div className="flexbox">
-        <div className="image">
-          <img src={pic} alt="pic" />
+        <div className="top">
+          <h1 className="title"> Brodie Carlisle</h1>
+
+          <Nav className="Navbar" />
         </div>
-        
-        <Routing />
-        
-      </div>
+        <div className="imgFlex">
+          <div className="image">
+            <img src={pic} alt="pic" />
+          </div>
+
+          <Routing />
+        </div>
       </Router>
       <div className="flexfooter">
-      <Footer/>
+        <Footer />
       </div>
-      
     </div>
   );
 }
